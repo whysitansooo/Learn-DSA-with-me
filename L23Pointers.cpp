@@ -1,22 +1,22 @@
-// #include <iostream>
-// using namespace std;
-// int main()
-// {
-//     int i = 10;
-//     cout<<&i<<endl;
-//     //! Pointers are variables which can store address of variables
+#include <iostream>
+using namespace std;
+int main()
+{
+    int i = 10;
+    cout<<&i<<endl;
+    //! Pointers are variables that can store address of variables
 
-//     int * p = &i;
-//     cout<<p<<endl;
-//     (*p)++;
-//     cout<<*p<<endl; //! Dereference operator
+    int * p = &i;
+    cout<<p<<endl;
+    (*p)++;
+    cout<<*p<<endl; //! Dereference operator
 
-//     cout<<sizeof(p)<<endl;
+    cout<<sizeof(p)<<endl;
 
-//     int *n = 0; //! NULL Pointer
-//     cout<<n<<endl;
+    int *n = 0; //! NULL Pointer
+    cout<<n<<endl;
 
-// }
+}
 
 
 //? Predict Ouput 1
